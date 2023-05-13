@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>What's in my bag?</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <canvas id="canvas"></canvas>
+        <div class="container">
+            <div class="item">
+                <img id="backpack" src="static/Backpack.png" onclick="explode()">
+            </div>
+            <!-- Items in Bag -->
+            <!-- Computer -->
+            <div class="item">
+                <img id="computer" style="display: none;" src="static/Computer.png" onclick="computer()">
+            </div>
+            <div id="computer-text" class="item" style="display: none;">
+                <h1>Laptop, Laptop Sleeve, Bluetooth Mouse</h1>
+                <p>
+                    This is my laptop and computer accessories. My laptop is a Razer Blade 14 which I purchased in 2021 as 
+                    I was entering university. As a mechanical engineering student, I need its powerful specs and Windows 
+                    operating system to run 3D modeling software. If I need to use it for more than 2 hours, I bring my charger.
+                    Although it is an expensive piece of equipment, I was lucky that my university provided its
+                    students a one-time technology grant, which I used to cover the costs. I have been using it well
+                    since my freshman year! The laptop sleeve is a hand-me-down from my father and I use it for my
+                    laptop as well as my iPad. The mouse is a Kakao product with their trademark character, and my
+                    favorite, Ryan. I used to have another Ryan mouse that was completely orange, but it stopped working
+                    after a few years of good use. I like this mouse because it is Bluetooth and silent-click.
+                </p>
+            </div>
+            <!-- Jacket -->
+            <div class="item">
+                <img id="jacket" style="display: none;" src="static/Jacket.png" onclick="jacket()">
+            </div>
+            <div id="jacket-text" class="item" style="display: none;">
+                <h1>Jacket</h1>
+                <p>
+                    I wore this jacket today (March 13th, 2023) because it is a light jacket that I think is 
+                    fashionable (I am not fashionable). I like to wear it when it is cool outside, when it is
+                    a little too cold to wear a single layer, but too hot to wear my other, thicker jackets.
+                    I also like it because it has nice pockets that I can put my smaller, but frequently used things.
+                    I believe I purchased this in the winter of 2021 at the Hyundai Premium Outlet in Songdo, 
+                    Incheon, South Korea.
+                </p>
+            </div>
+            <!-- Down Vest -->
+            <div class="item">
+                <img id="down" style="display: none;" src="static/Down Vest.png" onclick="down()">
+            </div>
+            <div id="down-text" class="item" style="display: none;">
+                <h1>Down Vest</h1>
+                <p>
+                    This is an "ultra-light" down vest that I purchased from Uniqlo last year (2022) in the Fall/Winter.
+                    Like its name suggests, it is very light and although I don't really like how it looks, it is warm.
+                    I bring it with me when I stay out until the late evening when it gets much colder. I try to wear it
+                    underneath a jacket to hide it. Still, it is much better than carrying around a thick, heavy jacket,
+                    especially because it folds into a small cylinder. I recently brought it with me to the SNU school
+                    festival--it was extremely hot in the afternoon, but quickly became cold by the time the festival ended.
+                    Sometimes I wish it had sleeves.
+                </p>
+            </div>
+            <!-- Mask -->
+            <div class="item">
+                <img id="masks" style="display: none;" src="static/Extra Masks.png" onclick="masks()">
+            </div>
+            <div id="masks-text" class="item" style="display: none;">
+                <h1>Masks</h1>
+                <p>
+                    These "emergency" masks have been in my backpack for a while.. a couple years in fact! Ever since the
+                    pandemic, I have been carrying around masks in my backpack in case I needed to replace the one I was wearing
+                    at the time. I don't really like this shape of mask, but of course if I need to change my mask I go with what
+                    I have.
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+
+</html>
